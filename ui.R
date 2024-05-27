@@ -11,6 +11,6 @@ ui <- fluidPage(
   tabsetPanel(
     id = 'tabPanel',
     type = 'tabs',
-    source('tab001ui.R', local = TRUE)$value,
+    source('./R/tab001ui.R', local = TRUE)$value,
   )
 )
